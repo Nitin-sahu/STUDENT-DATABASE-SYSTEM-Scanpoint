@@ -1,0 +1,3 @@
+turbo c compiler- for c
+Vs code editor - for C++
+microsoft foundation classes-
