@@ -1,0 +1,15 @@
+ADD_CIR_QUEUE(QUEUE,FRONT,REAR,ITEM,MAXQ)
+
+1.	IF REAR=MAXQ and FRONT =1 or REAR = FRONT-1,then:
+		Write "overflow"
+		Return.
+	[End of if sturcture]
+2.	if REAR=0,then:
+		Set REAR:=1,Front :=1.
+	Else if REAR=MAXQ,then:
+		Set REAR:=1
+	Else:
+		Set REAR:= REAR +1.
+	[end of if structure]
+3.	Set QUEUEU[REAR] :=ITEM
+4.	Return.
